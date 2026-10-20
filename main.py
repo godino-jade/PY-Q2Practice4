@@ -14,7 +14,7 @@ def add_brand(e):
     total_brands = len(brands | new_brand_set)
 
     brand_list = "<br>".join(sorted(all_brands))
- 
+    
     #display
     document.getElementById('output1').innerHTML = f'All brands: <br> {brand_list}'
     display(f'Total brands: {total_brands}', target="output1")
